@@ -42,7 +42,7 @@ $ composer update
 Now this package should find the vendor directory of the project and should be able to use
 package require in project. 
 
-# example usage
+# Example Usage
 ```php
 $apiBaseURL = env("GGTASKER_API_BASE_URL");
 $apiKey = env("GGTASKER_API_KEY"");
@@ -62,4 +62,8 @@ $newUser = [
 ];
 $result = $ggtakerApi->addUser($newUser, $token);
 dd($result);
+```
+### References:
+```php
+ https://github.com/hyperwallet/php-sdk/tree/49d4c23fde566b5b5d10e4652beb386047d0305d/src/Hyperwallet
 ```
