@@ -1,0 +1,21 @@
+{
+    "name": "gglink/ggtasker",
+    "description": "ggtasker api sdk",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gglink\\Ggtasker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "M. K",
+            "email": "mahajur88@gmail.com"
+        }
+    ]
+}
